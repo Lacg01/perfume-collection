@@ -1,0 +1,1399 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Perfume Collection</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #searchInput {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .brand {
+      margin-bottom: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .brand-header {
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #007BFF;
+      color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      cursor: pointer;
+    }
+    .perfume-list {
+      display: none;
+      padding: 10px 15px;
+    }
+    .perfume-card {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 10px;
+      background-color: #f4f4f4;
+      border-radius: 8px;
+    }
+    .perfume-card img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      margin-right: 15px;
+      border-radius: 6px;
+    }
+    .perfume-card a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    .perfume-card a:hover {
+      text-decoration: underline;
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+<p>Total perfumes: 203</p><h1>My Perfume Collection</h1>
+<input id="searchInput" placeholder="Search perfumes..." type="text"/>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        1907
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Cedar Blue →pendiente" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Cedar Blue →pendiente"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+1907+Cedar+Blue+→pendiente" target="_blank">Cedar Blue →pendiente</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Accendis
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Alidoro" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Alidoro"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Accendis+Alidoro" target="_blank">Alidoro</a>
+</div>
+<div class="perfume-card">
+<img alt="Cuoredoro" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Cuoredoro"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Accendis+Cuoredoro" target="_blank">Cuoredoro</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Afnan
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="9pm" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="9pm"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Afnan+9pm" target="_blank">9pm</a>
+</div>
+<div class="perfume-card">
+<img alt="9am" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="9am"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Afnan+9am" target="_blank">9am</a>
+</div>
+<div class="perfume-card">
+<img alt="9pm rebel" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="9pm rebel"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Afnan+9pm+rebel" target="_blank">9pm rebel</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Amouge
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Guidance" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Guidance"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Amouge+Guidance" target="_blank">Guidance</a>
+</div>
+<div class="perfume-card">
+<img alt="Purpose" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Purpose"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Amouge+Purpose" target="_blank">Purpose</a>
+</div>
+<div class="perfume-card">
+<img alt="Enclave" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Enclave"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Amouge+Enclave" target="_blank">Enclave</a>
+</div>
+<div class="perfume-card">
+<img alt="Interlude Black Iris" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Interlude Black Iris"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Amouge+Interlude+Black+Iris" target="_blank">Interlude Black Iris</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Amouroud
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Wetstone" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Wetstone"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Amouroud+Wetstone" target="_blank">Wetstone</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Argos
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Neptunes Trident" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Neptunes Trident"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Argos+Neptunes+Trident" target="_blank">Neptunes Trident</a>
+</div>
+<div class="perfume-card">
+<img alt="Sacred flame" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sacred flame"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Argos+Sacred+flame" target="_blank">Sacred flame</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Armaf
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="CDN sillage" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="CDN sillage"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armaf+CDN+sillage" target="_blank">CDN sillage</a>
+</div>
+<div class="perfume-card">
+<img alt="CDN milestone" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="CDN milestone"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armaf+CDN+milestone" target="_blank">CDN milestone</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Armani
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Acqua di gio parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Acqua di gio parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Acqua+di+gio+parfum" target="_blank">Acqua di gio parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Acqua di gio profondo" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Acqua di gio profondo"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Acqua+di+gio+profondo" target="_blank">Acqua di gio profondo</a>
+</div>
+<div class="perfume-card">
+<img alt="Acqua di gio profondo parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Acqua di gio profondo parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Acqua+di+gio+profondo+parfum" target="_blank">Acqua di gio profondo parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Stronger with you" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Stronger with you"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Stronger+with+you" target="_blank">Stronger with you</a>
+</div>
+<div class="perfume-card">
+<img alt="Code Parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Code Parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Code+Parfum" target="_blank">Code Parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Acqua di gio absolu" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Acqua di gio absolu"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Acqua+di+gio+absolu" target="_blank">Acqua di gio absolu</a>
+</div>
+<div class="perfume-card">
+<img alt="Stronger with you parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Stronger with you parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Stronger+with+you+parfum" target="_blank">Stronger with you parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Acqua di gio elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Acqua di gio elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Acqua+di+gio+elixir" target="_blank">Acqua di gio elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="Acqua di gio profondo EDT" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Acqua di gio profondo EDT"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Armani+Acqua+di+gio+profondo+EDT" target="_blank">Acqua di gio profondo EDT</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Astrophil &amp; Stella
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Night at the Opera" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Night at the Opera"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Astrophil+&amp;+Stella+Night+at+the+Opera" target="_blank">Night at the Opera</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Azzaro
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Forever wanted Elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Forever wanted Elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Azzaro+Forever+wanted+Elixir" target="_blank">Forever wanted Elixir</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        BDK
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Gris Charnel" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Gris Charnel"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+BDK+Gris+Charnel" target="_blank">Gris Charnel</a>
+</div>
+<div class="perfume-card">
+<img alt="Sel d'Argent" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sel d'Argent"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+BDK+Sel+d'Argent" target="_blank">Sel d'Argent</a>
+</div>
+<div class="perfume-card">
+<img alt="Rouge Smoking" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Rouge Smoking"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+BDK+Rouge+Smoking" target="_blank">Rouge Smoking</a>
+</div>
+<div class="perfume-card">
+<img alt="Pas ces soir extrait" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Pas ces soir extrait"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+BDK+Pas+ces+soir+extrait" target="_blank">Pas ces soir extrait</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Bon Parfumeur
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Iris Cartagena" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Iris Cartagena"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Bon+Parfumeur+Iris+Cartagena" target="_blank">Iris Cartagena</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Borntostandout
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Drunk lovers" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Drunk lovers"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Borntostandout+Drunk+lovers" target="_blank">Drunk lovers</a>
+</div>
+<div class="perfume-card">
+<img alt="Nanatopia" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Nanatopia"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Borntostandout+Nanatopia" target="_blank">Nanatopia</a>
+</div>
+<div class="perfume-card">
+<img alt="Fugazzi by BTSO" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Fugazzi by BTSO"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Borntostandout+Fugazzi+by+BTSO" target="_blank">Fugazzi by BTSO</a>
+</div>
+<div class="perfume-card">
+<img alt="Purple stain extrait" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Purple stain extrait"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Borntostandout+Purple+stain+extrait" target="_blank">Purple stain extrait</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Boss
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Infinite" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Infinite"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Boss+Infinite" target="_blank">Infinite</a>
+</div>
+<div class="perfume-card">
+<img alt="Bottled Elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bottled Elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Boss+Bottled+Elixir" target="_blank">Bottled Elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="The scent edt" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="The scent edt"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Boss+The+scent+edt" target="_blank">The scent edt</a>
+</div>
+<div class="perfume-card">
+<img alt="The scent elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="The scent elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Boss+The+scent+elixir" target="_blank">The scent elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="Bottled Absolu" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bottled Absolu"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Boss+Bottled+Absolu" target="_blank">Bottled Absolu</a>
+</div>
+<div class="perfume-card">
+<img alt="Bottled Bold Citrus" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bottled Bold Citrus"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Boss+Bottled+Bold+Citrus" target="_blank">Bottled Bold Citrus</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Bvlgari
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Man in black" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Man in black"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Bvlgari+Man+in+black" target="_blank">Man in black</a>
+</div>
+<div class="perfume-card">
+<img alt="Rain essence" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Rain essence"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Bvlgari+Rain+essence" target="_blank">Rain essence</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Carolina Herrera
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="CH men privé" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="CH men privé"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Carolina+Herrera+CH+men+privé" target="_blank">CH men privé</a>
+</div>
+<div class="perfume-card">
+<img alt="Bad boy le parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bad boy le parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Carolina+Herrera+Bad+boy+le+parfum" target="_blank">Bad boy le parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Bad boy cobalt" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bad boy cobalt"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Carolina+Herrera+Bad+boy+cobalt" target="_blank">Bad boy cobalt</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Chanel
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Allure homme sport eau extreme" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Allure homme sport eau extreme"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Chanel+Allure+homme+sport+eau+extreme" target="_blank">Allure homme sport eau extreme</a>
+</div>
+<div class="perfume-card">
+<img alt="Allure homme edition blanche" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Allure homme edition blanche"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Chanel+Allure+homme+edition+blanche" target="_blank">Allure homme edition blanche</a>
+</div>
+<div class="perfume-card">
+<img alt="Allure homme sport superleggera" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Allure homme sport superleggera"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Chanel+Allure+homme+sport+superleggera" target="_blank">Allure homme sport superleggera</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Clinique
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Happy" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Happy"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Clinique+Happy" target="_blank">Happy</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Comporta
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="A Olhar Trancoso" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="A Olhar Trancoso"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Comporta+A+Olhar+Trancoso" target="_blank">A Olhar Trancoso</a>
+</div>
+<div class="perfume-card">
+<img alt="Palafitico" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Palafitico"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Comporta+Palafitico" target="_blank">Palafitico</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Coreterno
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Oceanoir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Oceanoir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Coreterno+Oceanoir" target="_blank">Oceanoir</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Costume National
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Sea thru" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sea thru"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Costume+National+Sea+thru" target="_blank">Sea thru</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Creed
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Silver Mountain Water" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Silver Mountain Water"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Creed+Silver+Mountain+Water" target="_blank">Silver Mountain Water</a>
+</div>
+<div class="perfume-card">
+<img alt="Virgin Island Water" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Virgin Island Water"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Creed+Virgin+Island+Water" target="_blank">Virgin Island Water</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Davidoff
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Cool water" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Cool water"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Davidoff+Cool+water" target="_blank">Cool water</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Day Three Fragances
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Say Less" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Say Less"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Day+Three+Fragances+Say+Less" target="_blank">Say Less</a>
+</div>
+<div class="perfume-card">
+<img alt="La tacita de café" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="La tacita de café"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Day+Three+Fragances+La+tacita+de+café" target="_blank">La tacita de café</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Dior
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Sauvage elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sauvage elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dior+Sauvage+elixir" target="_blank">Sauvage elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="Homme cologne" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Homme cologne"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dior+Homme+cologne" target="_blank">Homme cologne</a>
+</div>
+<div class="perfume-card">
+<img alt="Homme intense" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Homme intense"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dior+Homme+intense" target="_blank">Homme intense</a>
+</div>
+<div class="perfume-card">
+<img alt="Rouge Trafalgar" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Rouge Trafalgar"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dior+Rouge+Trafalgar" target="_blank">Rouge Trafalgar</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Discotheque
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Heathens, Cowboys And The Santa Ana Winds" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Heathens, Cowboys And The Santa Ana Winds"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Discotheque+Heathens,+Cowboys+And+The+Santa+Ana+Winds" target="_blank">Heathens, Cowboys And The Santa Ana Winds</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Dolce &amp; Gabbana
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Light blue eau intense" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Light blue eau intense"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dolce+&amp;+Gabbana+Light+blue+eau+intense" target="_blank">Light blue eau intense</a>
+</div>
+<div class="perfume-card">
+<img alt="K edp" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="K edp"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dolce+&amp;+Gabbana+K+edp" target="_blank">K edp</a>
+</div>
+<div class="perfume-card">
+<img alt="Devotion Pour Homme" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Devotion Pour Homme"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Dolce+&amp;+Gabbana+Devotion+Pour+Homme" target="_blank">Devotion Pour Homme</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Eight &amp; Bob
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Eight &amp; Bob the original" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Eight &amp; Bob the original"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Eight+&amp;+Bob+Eight+&amp;+Bob+the+original" target="_blank">Eight &amp; Bob the original</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Ella K
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Musc k" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Musc k"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Ella+K+Musc+k" target="_blank">Musc k</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Ermenegildo Zegna
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Z Zegna" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Z Zegna"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Ermenegildo+Zegna+Z+Zegna" target="_blank">Z Zegna</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Essential Parfums
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Bois imperial" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bois imperial"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Essential+Parfums+Bois+imperial" target="_blank">Bois imperial</a>
+</div>
+<div class="perfume-card">
+<img alt="Divine Vanille" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Divine Vanille"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Essential+Parfums+Divine+Vanille" target="_blank">Divine Vanille</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Experimental Perfume Club
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Sable Gris" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sable Gris"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Experimental+Perfume+Club+Sable+Gris" target="_blank">Sable Gris</a>
+</div>
+<div class="perfume-card">
+<img alt="Smell like a king" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Smell like a king"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Experimental+Perfume+Club+Smell+like+a+king" target="_blank">Smell like a king</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Fugazzi
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="No cologne" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="No cologne"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Fugazzi+No+cologne" target="_blank">No cologne</a>
+</div>
+<div class="perfume-card">
+<img alt="Passionfroudh" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Passionfroudh"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Fugazzi+Passionfroudh" target="_blank">Passionfroudh</a>
+</div>
+<div class="perfume-card">
+<img alt="Born to stand out by fugazzi" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Born to stand out by fugazzi"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Fugazzi+Born+to+stand+out+by+fugazzi" target="_blank">Born to stand out by fugazzi</a>
+</div>
+<div class="perfume-card">
+<img alt="Sugar daddy" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sugar daddy"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Fugazzi+Sugar+daddy" target="_blank">Sugar daddy</a>
+</div>
+<div class="perfume-card">
+<img alt="Workaholic" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Workaholic"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Fugazzi+Workaholic" target="_blank">Workaholic</a>
+</div>
+<div class="perfume-card">
+<img alt="Angel dust extrait" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Angel dust extrait"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Fugazzi+Angel+dust+extrait" target="_blank">Angel dust extrait</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Giardini Di Toscana
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Bianco Latte" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bianco Latte"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Giardini+Di+Toscana+Bianco+Latte" target="_blank">Bianco Latte</a>
+</div>
+<div class="perfume-card">
+<img alt="Blu Mare" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Blu Mare"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Giardini+Di+Toscana+Blu+Mare" target="_blank">Blu Mare</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Givenchy
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Gentleman Edt intense" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Gentleman Edt intense"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Givenchy+Gentleman+Edt+intense" target="_blank">Gentleman Edt intense</a>
+</div>
+<div class="perfume-card">
+<img alt="Gentleman cologne" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Gentleman cologne"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Givenchy+Gentleman+cologne" target="_blank">Gentleman cologne</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Gucci
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Guilty elixir de parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Guilty elixir de parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Gucci+Guilty+elixir+de+parfum" target="_blank">Guilty elixir de parfum</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Guerlain
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="L'homme ideal edt" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="L'homme ideal edt"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Guerlain+L'homme+ideal+edt" target="_blank">L'homme ideal edt</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Halloween
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Man Hero" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Man Hero"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Halloween+Man+Hero" target="_blank">Man Hero</a>
+</div>
+<div class="perfume-card">
+<img alt="Man Mistery" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Man Mistery"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Halloween+Man+Mistery" target="_blank">Man Mistery</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Hawas
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Ice" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ice"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Hawas+Ice" target="_blank">Ice</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Hermes
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Terre d'Hermès Eau Givre" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Terre d'Hermès Eau Givre"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Hermes+Terre+d'Hermès+Eau+Givre" target="_blank">Terre d'Hermès Eau Givre</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        JPG
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Le male ultra" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Le male ultra"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+JPG+Le+male+ultra" target="_blank">Le male ultra</a>
+</div>
+<div class="perfume-card">
+<img alt="Le beau edt" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Le beau edt"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+JPG+Le+beau+edt" target="_blank">Le beau edt</a>
+</div>
+<div class="perfume-card">
+<img alt="Le beau paradise garden" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Le beau paradise garden"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+JPG+Le+beau+paradise+garden" target="_blank">Le beau paradise garden</a>
+</div>
+<div class="perfume-card">
+<img alt="Le male elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Le male elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+JPG+Le+male+elixir" target="_blank">Le male elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="Scandal le parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Scandal le parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+JPG+Scandal+le+parfum" target="_blank">Scandal le parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Scandal absolu" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Scandal absolu"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+JPG+Scandal+absolu" target="_blank">Scandal absolu</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Kilian
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Angel's share" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Angel's share"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Kilian+Angel's+share" target="_blank">Angel's share</a>
+</div>
+<div class="perfume-card">
+<img alt="Black phantom" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Black phantom"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Kilian+Black+phantom" target="_blank">Black phantom</a>
+</div>
+<div class="perfume-card">
+<img alt="Apple brandy" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Apple brandy"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Kilian+Apple+brandy" target="_blank">Apple brandy</a>
+</div>
+<div class="perfume-card">
+<img alt="Angel’s share paradis" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Angel’s share paradis"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Kilian+Angel’s+share+paradis" target="_blank">Angel’s share paradis</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Label
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Pine &amp; Sandalwood" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Pine &amp; Sandalwood"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Label+Pine+&amp;+Sandalwood" target="_blank">Pine &amp; Sandalwood</a>
+</div>
+<div class="perfume-card">
+<img alt="Salt &amp; Cyclamen" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Salt &amp; Cyclamen"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Label+Salt+&amp;+Cyclamen" target="_blank">Salt &amp; Cyclamen</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Liquides Imaginaires
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Desert Suave" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Desert Suave"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Liquides+Imaginaires+Desert+Suave" target="_blank">Desert Suave</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Loewe
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="7 cobalt" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="7 cobalt"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Loewe+7+cobalt" target="_blank">7 cobalt</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Lorenzo Pazzaglia
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Summer Hammer - Botella decantada por que la rompi :(" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Summer Hammer - Botella decantada por que la rompi :("/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Lorenzo+Pazzaglia+Summer+Hammer+-+Botella+decantada+por+que+la+rompi+:(" target="_blank">Summer Hammer - Botella decantada por que la rompi :(</a>
+</div>
+<div class="perfume-card">
+<img alt="Dream sea" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Dream sea"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Lorenzo+Pazzaglia+Dream+sea" target="_blank">Dream sea</a>
+</div>
+<div class="perfume-card">
+<img alt="Speachless" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Speachless"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Lorenzo+Pazzaglia+Speachless" target="_blank">Speachless</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Louis Vuitton
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Imagination" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Imagination"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Louis+Vuitton+Imagination" target="_blank">Imagination</a>
+</div>
+<div class="perfume-card">
+<img alt="L'Immensité" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="L'Immensité"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Louis+Vuitton+L'Immensité" target="_blank">L'Immensité</a>
+</div>
+<div class="perfume-card">
+<img alt="Pacific Chill" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Pacific Chill"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Louis+Vuitton+Pacific+Chill" target="_blank">Pacific Chill</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        M. Micallef
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="GNTONIC" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="GNTONIC"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+M.+Micallef+GNTONIC" target="_blank">GNTONIC</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Maison Crivelli
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Santal volcanique" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Santal volcanique"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Maison+Crivelli+Santal+volcanique" target="_blank">Santal volcanique</a>
+</div>
+<div class="perfume-card">
+<img alt="Tubéreuse Astrale" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Tubéreuse Astrale"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Maison+Crivelli+Tubéreuse+Astrale" target="_blank">Tubéreuse Astrale</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Mancera
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Cedrat boise" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Cedrat boise"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Mancera+Cedrat+boise" target="_blank">Cedrat boise</a>
+</div>
+<div class="perfume-card">
+<img alt="Cosmic Pepper" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Cosmic Pepper"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Mancera+Cosmic+Pepper" target="_blank">Cosmic Pepper</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Marc-Antoine Barrois
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Ganymede → pendiente" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ganymede → pendiente"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Marc-Antoine+Barrois+Ganymede+→+pendiente" target="_blank">Ganymede → pendiente</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Mind games
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Blockade" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Blockade"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Mind+games+Blockade" target="_blank">Blockade</a>
+</div>
+<div class="perfume-card">
+<img alt="Mentor" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Mentor"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Mind+games+Mentor" target="_blank">Mentor</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Montblanc
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Explorer platinum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Explorer platinum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Montblanc+Explorer+platinum" target="_blank">Explorer platinum</a>
+</div>
+<div class="perfume-card">
+<img alt="Star walker" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Star walker"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Montblanc+Star+walker" target="_blank">Star walker</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Moschino
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Toy boy" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Toy boy"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Moschino+Toy+boy" target="_blank">Toy boy</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Mugler
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="A Fantasm" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="A Fantasm"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Mugler+A+Fantasm" target="_blank">A Fantasm</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Narcotica
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Dulce Diablo" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Dulce Diablo"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Narcotica+Dulce+Diablo" target="_blank">Dulce Diablo</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Nasomatto
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Baraonda" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Baraonda"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Nasomatto+Baraonda" target="_blank">Baraonda</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        New Notes
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Akigala Mandarino →Pendiente" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Akigala Mandarino →Pendiente"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+New+Notes+Akigala+Mandarino+→Pendiente" target="_blank">Akigala Mandarino →Pendiente</a>
+</div>
+<div class="perfume-card">
+<img alt="Mangomina → Pendiente" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Mangomina → Pendiente"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+New+Notes+Mangomina+→+Pendiente" target="_blank">Mangomina → Pendiente</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Nishane
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Safran colognise" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Safran colognise"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Nishane+Safran+colognise" target="_blank">Safran colognise</a>
+</div>
+<div class="perfume-card">
+<img alt="Hacivat" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Hacivat"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Nishane+Hacivat" target="_blank">Hacivat</a>
+</div>
+<div class="perfume-card">
+<img alt="Ani" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ani"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Nishane+Ani" target="_blank">Ani</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Orto Parisi
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Bergamask" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bergamask"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Orto+Parisi+Bergamask" target="_blank">Bergamask</a>
+</div>
+<div class="perfume-card">
+<img alt="Risvelium" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Risvelium"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Orto+Parisi+Risvelium" target="_blank">Risvelium</a>
+</div>
+<div class="perfume-card">
+<img alt="Megamare" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Megamare"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Orto+Parisi+Megamare" target="_blank">Megamare</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Paco Rabanne
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Pure XS Night" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Pure XS Night"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Paco+Rabanne+Pure+XS+Night" target="_blank">Pure XS Night</a>
+</div>
+<div class="perfume-card">
+<img alt="Invictus parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Invictus parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Paco+Rabanne+Invictus+parfum" target="_blank">Invictus parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Phantom Intense" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Phantom Intense"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Paco+Rabanne+Phantom+Intense" target="_blank">Phantom Intense</a>
+</div>
+<div class="perfume-card">
+<img alt="Invictus platinum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Invictus platinum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Paco+Rabanne+Invictus+platinum" target="_blank">Invictus platinum</a>
+</div>
+<div class="perfume-card">
+<img alt="Victory Elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Victory Elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Paco+Rabanne+Victory+Elixir" target="_blank">Victory Elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="One million elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="One million elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Paco+Rabanne+One+million+elixir" target="_blank">One million elixir</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Parfums de Marly
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Layton" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Layton"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Layton" target="_blank">Layton</a>
+</div>
+<div class="perfume-card">
+<img alt="Percival" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Percival"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Percival" target="_blank">Percival</a>
+</div>
+<div class="perfume-card">
+<img alt="Carlisle" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Carlisle"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Carlisle" target="_blank">Carlisle</a>
+</div>
+<div class="perfume-card">
+<img alt="Pegasus Exclusif" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Pegasus Exclusif"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Pegasus+Exclusif" target="_blank">Pegasus Exclusif</a>
+</div>
+<div class="perfume-card">
+<img alt="Greenly" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Greenly"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Greenly" target="_blank">Greenly</a>
+</div>
+<div class="perfume-card">
+<img alt="Kalan" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Kalan"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Kalan" target="_blank">Kalan</a>
+</div>
+<div class="perfume-card">
+<img alt="Castley" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Castley"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Castley" target="_blank">Castley</a>
+</div>
+<div class="perfume-card">
+<img alt="Althair" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Althair"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Althair" target="_blank">Althair</a>
+</div>
+<div class="perfume-card">
+<img alt="Perseus" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Perseus"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Perseus" target="_blank">Perseus</a>
+</div>
+<div class="perfume-card">
+<img alt="Haltane" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Haltane"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Haltane" target="_blank">Haltane</a>
+</div>
+<div class="perfume-card">
+<img alt="Layton Exclusif" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Layton Exclusif"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Parfums+de+Marly+Layton+Exclusif" target="_blank">Layton Exclusif</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Prada
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Luna rossa" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Luna rossa"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Luna+rossa" target="_blank">Luna rossa</a>
+</div>
+<div class="perfume-card">
+<img alt="Luna rossa carbon" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Luna rossa carbon"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Luna+rossa+carbon" target="_blank">Luna rossa carbon</a>
+</div>
+<div class="perfume-card">
+<img alt="Luna rossa black" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Luna rossa black"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Luna+rossa+black" target="_blank">Luna rossa black</a>
+</div>
+<div class="perfume-card">
+<img alt="Luna rossa ocean EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Luna rossa ocean EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Luna+rossa+ocean+EDP" target="_blank">Luna rossa ocean EDP</a>
+</div>
+<div class="perfume-card">
+<img alt="Luna rossa ocean le parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Luna rossa ocean le parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Luna+rossa+ocean+le+parfum" target="_blank">Luna rossa ocean le parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Prada l'homme intense" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Prada l'homme intense"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Prada+l'homme+intense" target="_blank">Prada l'homme intense</a>
+</div>
+<div class="perfume-card">
+<img alt="Prada l'homme" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Prada l'homme"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Prada+Prada+l'homme" target="_blank">Prada l'homme</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Ralph Lauren
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Ralph's club elixir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ralph's club elixir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Ralph+Lauren+Ralph's+club+elixir" target="_blank">Ralph's club elixir</a>
+</div>
+<div class="perfume-card">
+<img alt="Ralph's club" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ralph's club"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Ralph+Lauren+Ralph's+club" target="_blank">Ralph's club</a>
+</div>
+<div class="perfume-card">
+<img alt="Polo 67" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Polo 67"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Ralph+Lauren+Polo+67" target="_blank">Polo 67</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Ramon Monegal
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Invisible but cool" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Invisible but cool"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Ramon+Monegal+Invisible+but+cool" target="_blank">Invisible but cool</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Reinvented
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Sacred bond" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Sacred bond"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Reinvented+Sacred+bond" target="_blank">Sacred bond</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Renier
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Oud Rain Tropical Storm" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Oud Rain Tropical Storm"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Renier+Oud+Rain+Tropical+Storm" target="_blank">Oud Rain Tropical Storm</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Room 1015
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Cherry Punk EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Cherry Punk EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Room+1015+Cherry+Punk+EDP" target="_blank">Cherry Punk EDP</a>
+</div>
+<div class="perfume-card">
+<img alt="Wavechild" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Wavechild"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Room+1015+Wavechild" target="_blank">Wavechild</a>
+</div>
+<div class="perfume-card">
+<img alt="Love-o-Matic → Pendiente" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Love-o-Matic → Pendiente"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Room+1015+Love-o-Matic+→+Pendiente" target="_blank">Love-o-Matic → Pendiente</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Rosendo Mateu
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="No. 5" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="No. 5"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Rosendo+Mateu+No.+5" target="_blank">No. 5</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Simone Andreoli
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Ocean of a midnight moon" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ocean of a midnight moon"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Simone+Andreoli+Ocean+of+a+midnight+moon" target="_blank">Ocean of a midnight moon</a>
+</div>
+<div class="perfume-card">
+<img alt="Vicebomb" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Vicebomb"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Simone+Andreoli+Vicebomb" target="_blank">Vicebomb</a>
+</div>
+<div class="perfume-card">
+<img alt="Malibu party in the bay" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Malibu party in the bay"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Simone+Andreoli+Malibu+party+in+the+bay" target="_blank">Malibu party in the bay</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Sospiro
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Vibrato" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Vibrato"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Sospiro+Vibrato" target="_blank">Vibrato</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        The spirit of Dubai
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Bahar" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Bahar"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+The+spirit+of+Dubai+Bahar" target="_blank">Bahar</a>
+</div>
+<div class="perfume-card">
+<img alt="Ajyal" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ajyal"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+The+spirit+of+Dubai+Ajyal" target="_blank">Ajyal</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Thomas Kosmala
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="No.4 Apres L'Amour" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="No.4 Apres L'Amour"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Thomas+Kosmala+No.4+Apres+L'Amour" target="_blank">No.4 Apres L'Amour</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Tom Ford
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Ombre leather Parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Ombre leather Parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Tom+Ford+Ombre+leather+Parfum" target="_blank">Ombre leather Parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Noir extreme parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Noir extreme parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Tom+Ford+Noir+extreme+parfum" target="_blank">Noir extreme parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Fucking Fabulous EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Fucking Fabulous EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Tom+Ford+Fucking+Fabulous+EDP" target="_blank">Fucking Fabulous EDP</a>
+</div>
+<div class="perfume-card">
+<img alt="Oud wood parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Oud wood parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Tom+Ford+Oud+wood+parfum" target="_blank">Oud wood parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Tobacco Vanille EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Tobacco Vanille EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Tom+Ford+Tobacco+Vanille+EDP" target="_blank">Tobacco Vanille EDP</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Tomy hilfiger
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Impact intense" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Impact intense"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Tomy+hilfiger+Impact+intense" target="_blank">Impact intense</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Valentino
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Born in roma edt" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Born in roma edt"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Valentino+Born+in+roma+edt" target="_blank">Born in roma edt</a>
+</div>
+<div class="perfume-card">
+<img alt="Born in roma extradose" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Born in roma extradose"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Valentino+Born+in+roma+extradose" target="_blank">Born in roma extradose</a>
+</div>
+<div class="perfume-card">
+<img alt="Born in roma coral fantasy" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Born in roma coral fantasy"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Valentino+Born+in+roma+coral+fantasy" target="_blank">Born in roma coral fantasy</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Versace
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Pour homme" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Pour homme"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+Pour+homme" target="_blank">Pour homme</a>
+</div>
+<div class="perfume-card">
+<img alt="Oud noir" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Oud noir"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+Oud+noir" target="_blank">Oud noir</a>
+</div>
+<div class="perfume-card">
+<img alt="Eros Energy" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Eros Energy"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+Eros+Energy" target="_blank">Eros Energy</a>
+</div>
+<div class="perfume-card">
+<img alt="Eros Najim" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Eros Najim"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+Eros+Najim" target="_blank">Eros Najim</a>
+</div>
+<div class="perfume-card">
+<img alt="The Dreamer" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="The Dreamer"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+The+Dreamer" target="_blank">The Dreamer</a>
+</div>
+<div class="perfume-card">
+<img alt="Eau Fraiche" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Eau Fraiche"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+Eau+Fraiche" target="_blank">Eau Fraiche</a>
+</div>
+<div class="perfume-card">
+<img alt="Eau Fraice Extreme → pendiente" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Eau Fraice Extreme → pendiente"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Versace+Eau+Fraice+Extreme+→+pendiente" target="_blank">Eau Fraice Extreme → pendiente</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Victor &amp; Rolf
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Spicebomb extreme" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Spicebomb extreme"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Victor+&amp;+Rolf+Spicebomb+extreme" target="_blank">Spicebomb extreme</a>
+</div>
+<div class="perfume-card">
+<img alt="Spicebom infrared EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Spicebom infrared EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Victor+&amp;+Rolf+Spicebom+infrared+EDP" target="_blank">Spicebom infrared EDP</a>
+</div>
+<div class="perfume-card">
+<img alt="Spicebomb Night Vision EDT" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Spicebomb Night Vision EDT"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Victor+&amp;+Rolf+Spicebomb+Night+Vision+EDT" target="_blank">Spicebomb Night Vision EDT</a>
+</div>
+<div class="perfume-card">
+<img alt="Spicebomb Metallic Musk" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Spicebomb Metallic Musk"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Victor+&amp;+Rolf+Spicebomb+Metallic+Musk" target="_blank">Spicebomb Metallic Musk</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Xerjoff
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Torino 21" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Torino 21"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Xerjoff+Torino+21" target="_blank">Torino 21</a>
+</div>
+<div class="perfume-card">
+<img alt="Starlight" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Starlight"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Xerjoff+Starlight" target="_blank">Starlight</a>
+</div>
+<div class="perfume-card">
+<img alt="Tony Iommi Monkey Special" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Tony Iommi Monkey Special"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Xerjoff+Tony+Iommi+Monkey+Special" target="_blank">Tony Iommi Monkey Special</a>
+</div>
+<div class="perfume-card">
+<img alt="Naxos" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Naxos"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Xerjoff+Naxos" target="_blank">Naxos</a>
+</div>
+<div class="perfume-card">
+<img alt="Alexandria II" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Alexandria II"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Xerjoff+Alexandria+II" target="_blank">Alexandria II</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        YSL
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Y EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Y EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+YSL+Y+EDP" target="_blank">Y EDP</a>
+</div>
+<div class="perfume-card">
+<img alt="Myself EDP" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Myself EDP"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+YSL+Myself+EDP" target="_blank">Myself EDP</a>
+</div>
+<div class="perfume-card">
+<img alt="Myself Le Parfum" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Myself Le Parfum"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+YSL+Myself+Le+Parfum" target="_blank">Myself Le Parfum</a>
+</div>
+<div class="perfume-card">
+<img alt="Tuxedo" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Tuxedo"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+YSL+Tuxedo" target="_blank">Tuxedo</a>
+</div>
+</div></div>
+<div class="brand">
+<div class="brand-header" onclick="toggleVisibility(this)">
+        Zara
+      </div>
+<div class="perfume-list">
+<div class="perfume-card">
+<img alt="Vibrant leather" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Perfume_Bottle_Silhouette.png" style="width:50px;height:50px;object-fit:contain;background:white;padding:4px;border-radius:6px;" title="Vibrant leather"/>
+<a href="https://www.google.com/search?q=site:fragrantica.com+Zara+Vibrant+leather" target="_blank">Vibrant leather</a>
+</div>
+</div></div>
+<script>
+  function toggleVisibility(header) {
+    const list = header.nextElementSibling;
+    list.style.display = (list.style.display === "block") ? "none" : "block";
+  }
+
+  document.getElementById("searchInput").addEventListener("keyup", function() {
+    const query = this.value.toLowerCase();
+    document.querySelectorAll(".brand").forEach(function(brandDiv) {
+      const perfumes = brandDiv.querySelectorAll(".perfume-card");
+      let match = false;
+      perfumes.forEach(function(card) {
+        const text = card.innerText.toLowerCase();
+        const visible = text.includes(query);
+        card.style.display = visible ? "flex" : "none";
+        if (visible) match = true;
+      });
+      brandDiv.style.display = match ? "block" : "none";
+    });
+  });
+</script>
+</body>
+</html>
